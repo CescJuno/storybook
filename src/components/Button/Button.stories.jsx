@@ -17,7 +17,7 @@ const SwitchVarientEnum = {
   TEXT: 'text',
 };
 const handleOnClick = () => {
-  alert(1);
+  alert("test");
 };
 export default {
   title: 'Button',
@@ -93,7 +93,7 @@ Basic.args = {
   href: '',
   color: SwitchTypeEnum.INHERIT,
   label: 'button',
-  variant: SwitchVarientEnum.TEXT,
+  variant: SwitchVarientEnum.OUTLINED,
   options: {},
   isDisabled: false,
   startIcon: false,

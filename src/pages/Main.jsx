@@ -8,16 +8,16 @@ const Main = (props) => {
   return (
     <>
     <header style={{background:'inherit'}}>aaa</header>
-    <div style={{ display:'flex', justifyContent:'flex-end' }}>
+    <section style={{ display:'flex', justifyContent:'flex-end' }}>
       <Button
         onClick={handleClick}
         color={'inherit'}
-        variant={'text'}
+        variant={'outline'}
         options={null}
       >
         aaaa
       </Button>
-      </div>
+      </section>
     </>
   );
 };
